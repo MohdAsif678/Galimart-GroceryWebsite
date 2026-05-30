@@ -1,0 +1,149 @@
+/* Container */
+.faq-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.faq-container h1 {
+  font-size: 2rem;
+  color: #2a7a44;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.faq-container h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #ff9800; /* Accent color */
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.faq-container p {
+  margin-bottom: 1rem;
+}
+.faq-container li {
+  list-style: none;
+}
+
+/* Actions (Expand/Collapse All) */
+.faq-actions {
+  text-align: right;
+  margin-bottom: 1.5rem;
+}
+
+.faq-action {
+  background-color: #2a7a44;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.faq-action:hover {
+  background-color: #256538;
+}
+
+/* FAQ Items */
+.faq-list {
+  border-top: 1px solid #ddd;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Question Button */
+.faq-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #1e5631;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.faq-toggle:hover {
+  background-color: #f5f5f5;
+}
+
+.faq-q-prefix {
+  margin-right: 0.5rem;
+  color: #2a7a44;
+}
+
+/* Plus/Minus Icon */
+.faq-icon {
+  font-size: 1.5rem;
+  color: #2a7a44;
+  margin-left: 1rem;
+}
+
+/* Answer */
+.faq-answer {
+  padding: 0 1rem 1rem 1rem;
+  background-color: #fafafa;
+}
+
+.faq-answer-content {
+  margin-top: 0.5rem;
+}
+
+.faq-a-prefix {
+  font-weight: bold;
+  color: #1e5631;
+  margin-right: 0.5rem;
+}
+
+/* Note and Date */
+.faq-note {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.effective-date {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: right;
+  margin-top: 0.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 1.2rem;
+  }
+
+  .faq-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .faq-toggle {
+    font-size: 0.95rem;
+  }
+}

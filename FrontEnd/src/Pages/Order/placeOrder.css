@@ -1,0 +1,76 @@
+.place_order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+.place_order_left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+.place_order_left_title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.place_order_left input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline-color: beige;
+}
+.place_order_left .multi_feild {
+  display: flex;
+  gap: 10px;
+}
+.place_order_right {
+  width: 100%;
+  max-width: max(40%, 500px);
+}
+.place_order_right .cart_total1 h2 {
+  font-weight: 600;
+}
+.cart_total1 {
+  width: 100%;
+}
+.cart_total1 hr {
+  margin: 10px 0px;
+}
+.cart_total1 button {
+  border: none;
+  color: white;
+  background-color: black;
+  width: max(15vw, 150px);
+  padding: 12px 0px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 60px;
+  font-size: 18px;
+}
+.cart_total1 button:hover {
+  transform: translateX(3px) scale(1.1);
+  transition: transform 0.4s ease;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1050px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+ 
+}
+
+/* for small devices */
+@media screen and (max-width: 700px) {
+  .place_order{
+    display: flex;
+    flex-direction: column;
+  }
+}

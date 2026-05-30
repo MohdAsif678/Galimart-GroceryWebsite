@@ -1,0 +1,90 @@
+/* Container */
+.legal-container {
+  max-width: 100%;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin: 60px auto;
+  padding: 40px 30px;
+}
+
+/* Headings */
+.legal-container h1 {
+  font-size: 2rem;
+  color: #2a7a44; /* matches GaliMart’s fresh, trustworthy vibe */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.legal-container h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #ff9800; /* Accent color */
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.legal-container h2 {
+  font-size: 1.6rem;
+  color: #1e5631;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #2a7a44;
+  padding-left: 0.75rem;
+  background-color: #f9f9f9;
+}
+
+/* Lists */
+.legal-container ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal-container li {
+  margin-bottom: 0.75rem;
+}
+
+/* Emphasis */
+.legal-container strong {
+  color: #1e5631;
+}
+
+/* Paragraphs */
+.legal-container p {
+  margin-bottom: 1rem;
+}
+
+/* Section Styling */
+.legal-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Effective Date */
+.effective-date {
+  font-size: 0.95rem;
+  color: #666;
+  text-align: right;
+  border-top: 1px solid #ddd;
+  padding-top: 0.75rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .legal-container {
+    padding: 1.2rem;
+  }
+
+  .legal-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .legal-container h2 {
+    font-size: 1.3rem;
+  }
+}

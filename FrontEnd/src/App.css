@@ -1,0 +1,15 @@
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1050px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+ 
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+  
+}

@@ -1,0 +1,34 @@
+.grocery_display {
+  margin-top: 2.5rem;
+}
+.grocery_display h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.grocery_display_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1050px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+ .grocery_display_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+  
+}

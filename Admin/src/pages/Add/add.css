@@ -1,0 +1,69 @@
+.add {
+  width: 100%;
+  margin-left: max(5vw, 25px);
+  margin-top: 5rem;
+  color: #5f5c5c;
+  font-size: 1.1rem;
+}
+.add form {
+  gap: 20px;
+  width: 90%;
+}
+.add_img_upload img {
+  width: 120px;
+}
+.add_product_name,
+.add_product_description {
+  width: max(40%, 280px);
+}
+.add_product_name input,
+.add_product_description textarea {
+  padding: 15px;
+}
+.add_category_price {
+  display: flex;
+  gap: 30px;
+}
+.add_category_price select,
+.add_category_price input {
+  max-width: 500px;
+  padding: 10px;
+}
+.add_btn {
+  max-width: 120px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.add_btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1050px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* for small devices */
+@media screen and (max-width: 400px) {
+  .add {
+    width: 50%;
+  }
+  .add_category_price {
+    display: flex;
+    flex-direction: column;
+  }
+  .add_product_name,
+  .add_product_description {
+    width: max(30%, 250px);
+  }
+}
