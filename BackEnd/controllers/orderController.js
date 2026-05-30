@@ -1,6 +1,10 @@
 import orderModal from "../modals/orderModal.js";
 import userModal from "../modals/userModal.js";
 
+//config variables 
+const frontend_url = "https://galimar-frontend.onrender.com";
+
+
 //placing order for frontend
 const placeOrder = async (req, res) => {
   try {
